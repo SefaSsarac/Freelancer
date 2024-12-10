@@ -9,7 +9,7 @@ exports.getAllProjects = async (req, res) => {
         res.status(500).send('Server error while fetching projects.');
     }
 };
-
+ 
 // ▼ Render project add page ▼
 exports.getAddProjectPage = (req, res) => {
     res.render('add');
